@@ -1,0 +1,44 @@
+body {
+  margin-top: 75px; }
+
+.navbar {
+  box-shadow: 2px 2px 5px #3292a6;
+  opacity: 0.9; }
+  .navbar .nav-item .nav-link {
+    color: #000; }
+  .navbar .nav-item .nav-link:hover {
+    color: #3292a6; }
+
+#showcase {
+  background-image: url("../img/bookboy.jpg");
+  min-height: 600px;
+  position: relative;
+  background-size: cover; }
+  #showcase .primary-overlay {
+    background: rgba(50, 146, 156, 0.7);
+    min-height: 600px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
+  #showcase #cusbtn {
+    border-radius: 0px; }
+  #showcase #poster {
+    filter: grayscale(0.8) drop-shadow(1px 1px 4px white); }
+
+#authors img {
+  margin-top: -65px; }
+
+#authors .card:hover {
+  background: #3292a6;
+  color: #fff; }
+  #authors .card:hover .fa {
+    color: #fff; }
+
+#authors .fa {
+  font-size: 25px; }
+
+@media (max-width: 576px) {
+  #showcase h1 {
+    font-size: 50px; } }
